@@ -75,21 +75,22 @@ npm run dev
 Frontend will run at:
 
 http://localhost:5173
- Usage
 
-Upload the Wyrd Media Labs Wiki PDF.
+Usage: 
 
-Ask questions related to the document.
+1. Upload the Wyrd Media Labs Wiki PDF.
 
-The system retrieves relevant sections and generates grounded answers with citations.
+2. Ask questions related to the document.
 
-If the answer is not present in the document, the system will indicate that the information could not be found.
+3. The system retrieves relevant sections and generates grounded answers with citations.
 
-Retrieval accuracy depends on the quality of the PDF text extraction.
+4. If the answer is not present in the document, the system will indicate that the information could not be found.
 
-Very short or vague questions may retrieve less relevant chunks.
+5. Retrieval accuracy depends on the quality of the PDF text extraction.
 
-The system currently works best with small document collections.
+6. Very short or vague questions may retrieve less relevant chunks.
+
+7. The system currently works best with small document collections.
 
 🔮 Future Improvements
 
