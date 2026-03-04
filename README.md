@@ -6,7 +6,7 @@ The system runs completely locally and does not depend on external APIs.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Local-first architecture** – All processing runs locally using Ollama and a local vector database.
 - **Grounded responses** – The model answers questions only using the uploaded document context.
@@ -15,7 +15,7 @@ The system runs completely locally and does not depend on external APIs.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The system follows a standard RAG pipeline:
 
@@ -47,7 +47,7 @@ https://ollama.com
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 
@@ -75,7 +75,7 @@ npm run dev
 Frontend will run at:
 
 http://localhost:5173
-📄 Usage
+ Usage
 
 Upload the Wyrd Media Labs Wiki PDF.
 
@@ -84,27 +84,6 @@ Ask questions related to the document.
 The system retrieves relevant sections and generates grounded answers with citations.
 
 If the answer is not present in the document, the system will indicate that the information could not be found.
-
-📁 Project Structure
-project-root
-│
-├── backend
-│   ├── app
-│   │   ├── api
-│   │   ├── core
-│   │   ├── models
-│   │   └── utils
-│   └── requirements.txt
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   └── package.json
-│
-├── docker-compose.yml
-├── setup.sh
-└── README.md
-⚠ Limitations
 
 Retrieval accuracy depends on the quality of the PDF text extraction.
 
@@ -115,14 +94,13 @@ The system currently works best with small document collections.
 🔮 Future Improvements
 
 Possible improvements include:
+1. Hybrid search (vector + keyword)
 
-Hybrid search (vector + keyword)
+2. Cross-encoder reranking
 
-Cross-encoder reranking
+3. Multi-document support
 
-Multi-document support
-
-Streaming responses
+4. Streaming responses
 
 Improved UI for document management
 
