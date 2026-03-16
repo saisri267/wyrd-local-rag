@@ -53,8 +53,8 @@ https://ollama.com
 ### Clone the repository
 
 ```bash
-git clone https://github.com/saisri267/wyrd-local-rag.git
-cd wyrd-local-rag
+git clone https://github.com/saisri267/local--rag.git
+cd local--rag
 ````
 
 ### Install Ollama model
@@ -95,7 +95,7 @@ http://localhost:5173
 
 ## Usage
 
-1. Upload the **Wyrd Media Labs Wiki PDF**
+1. Upload the PDF
 2. Ask questions about the document
 3. The system retrieves relevant content and generates answers
 
