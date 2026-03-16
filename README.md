@@ -1,4 +1,4 @@
-# AI Engineer - Trial By Fire (RAG System)
+# RAG System
 
 This project implements a local **Retrieval-Augmented Generation (RAG)** system that answers questions based on a PDF document.
 
